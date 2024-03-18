@@ -11,6 +11,6 @@ printinfo(origin_arr)
 reshape_arr = np.reshape(origin_arr, (4, 3))
 printinfo(reshape_arr)
 
-# 2개의 데이터씩
+# 2개의 데이터씩 6행
 reshape_arr = reshape_arr.reshape(-1, 2)
 printinfo(reshape_arr)
